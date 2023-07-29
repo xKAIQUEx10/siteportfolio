@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: url(src/Home/Kaique\ Vieira\ -\ Home.png);
+  background-repeat: no-repeat;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 26px 162px 0px 162px;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 38px;
+  border: 2px solid #FFF;
+  padding: 14px 53px 10px 53px;
+}
+
+.cabecalho-menu-item{
+  color: #FFF;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cabecalho-menu-item:hover{
+  color: #6FCF57;
+}
+
+.home{
+  display: flex;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.conteudo{
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 78px 816px 369px 189px;
+}
+
+.conteudo-principal-escrito-titulo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 12px;
+  border-bottom: 1.6px solid #FFF;
+}
+
