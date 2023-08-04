@@ -1,5 +1,532 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(src/Home/Kaique\ Vieira\ -\ Home.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #000;}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 26px 162px 0px 162px;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 38px;
+  border: 2px solid #FFF;
+  padding: 14px 53px 10px 53px;
+}
+
+.cabecalho-menu-item{
+  color: #FFF;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cabecalho-menu-item:hover{
+  color: #6FCF57;
+}
+
+.home{
+  display: flex;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.conteudo{
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 78px 816px 369px 189px;
+}
+
+.conteudo-principal-escrito-titulo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 12px;
+  border-bottom: 1.6px solid #FFF;
+}
+
+.conteudo-sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.conteudo-sobre-titulo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1.6px solid #FFF;
+}
+
+.conteudo-sobre-desc{
+  color: #FFF;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 74px;
+  padding-bottom: 200px;
+}
+
+.conteudo-sobre-imagem{
+padding-bottom: 217px;
+}
+
+
+.conteudo-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.conteudo-skills-titulo{
+  color: #000;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1.6px solid #000;
+  padding-top: 90px;
+}
+
+.conteudo-experiencias-titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-experiencias-titulo-h1{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 76px;
+  border-bottom: 1.6px solid #fff;
+}
+
+.conteudo-experiencias-itens-column{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 59px;
+  
+}
+
+.conteudo-experiencias-itens-brq{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
+}
+
+.conteudo-experiencias-itens-brq-titulo{
+  padding-top: 68px;
+  color: #FFF;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.conteudo-experiencias-itens-brq-desc{
+  border-top: 1.6px solid #fff;
+  color: #FFF;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  
+}
+
+.conteudo-experiencias-itens-brq-titulo-ferramentas-column{
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteudo-experiencias-itens-brq-titulo-ferramentas{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+.conteudo-experiencias-itens-brq-imagens-ferramentas{
+  width: 60%;
+  padding-top: 30px;
+}
+
+.conteudo-experiencias-itens-evolutix{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
+}
+
+.conteudo-experiencias-itens-evolutix-titulo{
+  padding-top: 68px;
+  color: #FFF;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.conteudo-experiencias-itens-evolutix-desc{
+  border-top: 1.6px solid #fff;
+  color: #FFF;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 108px;
+}
+
+.conteudo-experiencias-itens-evolutix-titulo-ferramentas-column{
+  padding-top: 160px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+.conteudo-experiencias-itens-evolutix-titulo-ferramentas{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+.conteudo-experiencias-itens-evolutix-imagens-ferramentas{
+  width: 85%;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.conteudo-experiencias-itens-column-second{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 59px;
+  background-color: #FFF;
+}
+
+
+.conteudo-experiencias-itens-ludopedia{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #FFF;
+}
+
+.conteudo-experiencias-itens-ludopedia-titulo{
+  padding-top: 68px;
+  color: #000;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.conteudo-experiencias-itens-ludopedia-desc{
+  border-top: 1.6px solid #000;
+  color: #000;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 58px;
+}
+
+.conteudo-experiencias-itens-ludopedia-titulo-ferramentas-column{
+  padding-top: 160px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+.conteudo-experiencias-itens-ludopedia-titulo-ferramentas{
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+.conteudo-experiencias-itens-ludopedia-imagens-ferramentas{
+  width: 85%;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+
+.conteudo-experiencias-itens-zg{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #FFF;
+}
+
+.conteudo-experiencias-itens-zg-titulo{
+  color: #000;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.conteudo-experiencias-itens-zg-desc{
+  border-top: 1.6px solid #000;
+  color: #000;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 108px;
+}
+
+.conteudo-experiencias-itens-zg-titulo-ferramentas-column{
+  padding-top: 43px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+.conteudo-experiencias-itens-zg-titulo-ferramentas{
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+.conteudo-experiencias-itens-zg-imagens-ferramentas{
+  width: 85%;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.conteudo-portfolio-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.conteudo-portfolio-evolutix-imagem{
+  padding-top: 220px;
+}
+
+.conteudo-portfolio-evolutix-btn{
+  display: flex;
+  justify-content: center;
+  padding-top:100px;
+  padding-bottom: 170px;
+  
+}
+.conteudo-portfolio-evolutix-btn-texto{
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: #000;
+  padding: 20px 130px 20px 130px;
+  border: 2px  solid #FFF;
+}
+
+.conteudo-portfolio-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+}
+.conteudo-portfolio-ludopedia-imagem{
+  padding-top: 200px;
+}
+
+.conteudo-portfolio-ludopedia-btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 170px;
+}
+.conteudo-portfolio-ludopedia-btn-texto{
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: white;
+  padding: 20px 130px 20px 130px;
+  border: 2px solid #000;
+}
+
+.rodape{
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape-conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape-conteudo-titulo{
+  padding-top: 100px;
+  padding-bottom: 5px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1.6px solid #FFF;
+
+}
+
+.rodape-conteudo-texto{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 35px;
+}
+
+.rodape-conteudo-imagem{
+  width: 70px;
+  height: 110px;
+  padding-top: 43px;
+}
+
+
+.rodape-conteudo-assinatura{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 129px;
+  padding-bottom: 40px;
+}
+
+
+#home-btn {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 13px;
+  border: 2px solid #fff;
+  outline: none;
+  background-color: #8F8F8F;
+  color: #FFF;
+  font-family: Roboto;
+  padding: 13px;
+  border-radius: 2px;
+}
+
+#home-btn:hover {
+  background-color: #1a1919;
+  color: #6FCF57;
+}
+=======
 
 
 body{
