@@ -5,27 +5,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Olá! Sou Kaique Vieira e esse é meu portfólio.">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="btn.js"></script>
 	<title>Kaique Vieira - Portfólio</title>
 </head>
 <body>
+	<button onclick="topFunction()" id="home-btn" title="Go to top">Home</button>
 	<header class="cabecalho">
 		<nav class="cabecalho-menu">
-			<a class="cabecalho-menu-item">HOME</a>
-			<a class="cabecalho-menu-item">SOBRE MIM</a>
-			<a class="cabecalho-menu-item">SKILLS</a>
-			<a class="cabecalho-menu-item">EXPERIÊNCIA</a>
-			<a class="cabecalho-menu-item">PORTFÓLIO</a>
-			<a class="cabecalho-menu-item">CONTATO</a>
+			<a class="cabecalho-menu-item" href="#home">HOME</a>
+			<a class="cabecalho-menu-item" href="#about">SOBRE MIM</a>
+			<a class="cabecalho-menu-item" href="#skills">SKILLS</a>
+			<a class="cabecalho-menu-item" href="#exp">EXPERIÊNCIA</a>
+			<a class="cabecalho-menu-item" href="#port">PORTFÓLIO</a>
+			<a class="cabecalho-menu-item" href="#contato">CONTATO</a>
 		</nav>
 	</header>
 	<main class="conteudo">
-		<section class="conteudo-principal">
+		<section class="conteudo-principal" id="home">
 			<div class="conteudo-principal-escrito">
 				<h1 class="conteudo-principal-escrito-titulo">Eu sou <br> Kaique <br> Vieira.</h1>
 				<h3 class="conteudo-principal-escrito-subtitulo">UX/UI Designer</h3>
 			</div>
 		</section>
-		<section class="conteudo-sobre">
+		<section class="conteudo-sobre" id="about">
 				<h1 class="conteudo-sobre-titulo">Sobre mim</h1>
 				<p class="conteudo-sobre-desc">
 					Iniciei minha carreira em 2019 como Designer Gráfico. Nos <br>
@@ -36,100 +38,97 @@
 				</p>
 			<img class="conteudo-sobre-imagem" src="src/SobreMim/SobreMim.png">
 		</section>
-		<section class="conteudo-skills">
+		<section class="conteudo-skills" id="skills">
 			<h1 class="conteudo-skills-titulo">Skills</h1>
 			<img class="conteudo-skills-imagem" src="src/Skills/skills.png">
 		</section>
-		<section class="conteudo-experiencias">
-
-				<h1 class="conteudo-experiencias-titulo">Experiências</h1>
-				<div class="conteudo-experiencias-itens-brq">
-					<h2 class="conteudo-experiencias-itens-brq-titulo">
-						BRQ Projeto Itau - Product Design - <br>
-						Jun de 2022 até Jul 2023
-					</h2>
-					<p class="conteudo-experiencias-itens-brq-desc">
-						Wireframes de baixa, média e alta fidelidade <br>
-						Condução de testes de usabilidade Criação de <br>
-						interfaces e protótipos navegáveis Design System <br>
-						User Interface Style guide design system  Vivência <br>
-						em HTML e CSS.                    
-					</p>
+		<section class="conteudo-experiencias" id="exp">
+				<div class="conteudo-experiencias-titulo">
+					<h1 class="conteudo-experiencias-titulo-h1">Experiências</h1> 
 				</div>
-					<h3 class="conteudo-experiencias-itens-brq-titulo-ferramentas">Ferramentas Utilizadas</h4>
-					<div class="conteudo-experiencias-itens-brq-imagens-ferramentas">
-						<img>
-						<img>
-						<img>
-						<img>
+				<div class="conteudo-experiencias-itens-column">
+					<div class="conteudo-experiencias-itens-brq">
+						<h2 class="conteudo-experiencias-itens-brq-titulo">
+							BRQ Projeto Itau - Product Design - <br>
+							Jun de 2022 até Jul 2023
+						</h2>
+						<p class="conteudo-experiencias-itens-brq-desc">
+							Wireframes de baixa, média e alta fidelidade 
+							Condução de testes de usabilidade Criação de 
+							interfaces e protótipos navegáveis Design System 
+							User Interface Style guide design system  Vivência 
+							em HTML e CSS.                    
+						</p>
 					</div>
-		
+						<div class="conteudo-experiencias-itens-brq-titulo-ferramentas-column">
+							<h3 class="conteudo-experiencias-itens-brq-titulo-ferramentas">Ferramentas Utilizadas</h4>
+							<img class="conteudo-experiencias-itens-brq-imagens-ferramentas" src="src/Ferramentas/ferramentas brq.PNG" >
+						</div>
+					
 
 				<div class="conteudo-experiencias-itens-evolutix">
 					<h2 class="conteudo-experiencias-itens-evolutix-titulo">
 						Evolutix - UX/UI Pleno - Jan de 2020 até Jun 2022
 					</h2>
 					<p class="conteudo-experiencias-itens-evolutix-desc">
-						Wireframes de baixa, média e alta fidelidade <br>
-						Condução de testes de usabilidade Criação de <br>
-						interfaces e protótipos navegáveis Design System <br>
-						User Interface Style guide design system  Vivência <br>
+						Wireframes de baixa, média e alta fidelidade 
+						Condução de testes de usabilidade Criação de 
+						interfaces e protótipos navegáveis Design System 
+						User Interface Style guide design system  Vivência 
 						em HTML e CSS.                    
 					</p>
 				</div>
-					<div class="conteudo-experiencias-itens-evolutix-imagens-ferramentas">
-						<img>
-						<img>
-						<img>
-						<img>
+					<div class="conteudo-experiencias-itens-evolutix-titulo-ferramentas-column">
+						<h3 class="conteudo-experiencias-itens-evolutix-titulo-ferramentas">Ferramentas Utilizadas</h4>
+						<img class="conteudo-experiencias-itens-evolutix-imagens-ferramentas" src="src/Ferramentas/ferramentas evolutix.PNG" >
 					</div>
+			</div>	
 
 
+			<div class="conteudo-experiencias-itens-column-second">
 				<div class="conteudo-experiencias-itens-ludopedia">
 					<h2 class="conteudo-experiencias-itens-ludopedia-titulo">
-						Ludopedia - Product Design - Projeto PJ
+						Ludopedia - Product Design - Projeto PJ 
 					</h2>
 					<p class="conteudo-experiencias-itens-ludopedia-desc">
-						Wireframes de baixa, média e alta fidelidade <br>
-						Condução de testes de usabilidade Criação de <br>
-						interfaces e protótipos navegáveis Design System <br>
-						User Interface Style guide design system  Vivência <br>
+						Wireframes de baixa, média e alta fidelidade 
+						Condução de testes de usabilidade Criação de 
+						interfaces e protótipos navegáveis Design System 
+						User Interface Style guide design system  Vivência 
 						em HTML e CSS.                    
 					</p>
 				</div>
-					<div class="conteudo-experiencias-itens-ludopedia-imagens-ferramentas">
-						<img>
-						<img>
-						<img>
-						<img>
+					<div class="conteudo-experiencias-itens-ludopedia-titulo-ferramentas-column">
+						<h3 class="conteudo-experiencias-itens-ludopedia-titulo-ferramentas">Ferramentas Utilizadas</h4>
+						<img class="conteudo-experiencias-itens-ludopedia-imagens-ferramentas" src="src/Ferramentas/ferramentas ludopedia.PNG" >
 					</div>
+				
 
-
-				<div class="conteudo-experiencias-itens-zg">
-					<h2 class="conteudo-experiencias-itens-zg-titulo">
-						Zero Glosa Soluções - Product Design - Projeto PJ
-					</h2>
-					<p class="conteudo-experiencias-itens-zg-desc">
-						Wireframes de baixa, média e alta fidelidade <br>
-						Condução de testes de usabilidade Criação de <br>
-						interfaces e protótipos navegáveis Design System <br>
-						User Interface Style guide design system  Vivência <br>
-						em HTML e CSS.                    
-					</p>
+			<div class="conteudo-experiencias-itens-zg">
+				<h2 class="conteudo-experiencias-itens-zg-titulo">
+					Zero Glosa Soluções - Product Design - Projeto PJ
+				</h2>
+				<p class="conteudo-experiencias-itens-zg-desc">
+					Wireframes de baixa, média e alta fidelidade 
+					Condução de testes de usabilidade Criação de 
+					interfaces e protótipos navegáveis Design System 
+					User Interface Style guide design system  Vivência 
+					em HTML e CSS.                    
+				</p>
+			</div>
+				<div class="conteudo-experiencias-itens-zg-titulo-ferramentas-column">
+					<h3 class="conteudo-experiencias-itens-zg-titulo-ferramentas">Ferramentas Utilizadas</h4>
+					<img class="conteudo-experiencias-itens-zg-imagens-ferramentas" src="src/Ferramentas/ferramentas zg.PNG" >
 				</div>
-					<div class="conteudo-experiencias-itens-zg-imagens-ferramentas">
-						<img>
-						<img>
-						<img>
-						<img>
-					</div>
+		</div>	
 
 
-		
+
+			
 
 
 		</section>
-		<section class="conteudo-portfolio-1">
+		<section class="conteudo-portfolio-1" id="port">
 			<div class="conteu-portfolio-evolutix">
 				<img class="conteudo-portfolio-evolutix-imagem" src="src/portfolio/evolutix.png">
 				<div  class="conteudo-portfolio-evolutix-btn">
@@ -146,7 +145,7 @@
 			</div>
 		</section>
 	</main>
-	<footer class="rodape">
+	<footer class="rodape" id="contato">
 		<div class="rodape-conteudo">
 			<h1 class="rodape-conteudo-titulo"> Contatos</h1>
 			<img class="rodape-conteudo-imagem" src="src/Contato/email.png">
