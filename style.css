@@ -117,10 +117,10 @@ body{
   font-family: Roboto;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
-  padding-top: 74px;
-  padding-bottom: 200px;
+  padding: 74px 174px 200px 174px;
+
 }
 
 .conteudo-sobre-imagem{
@@ -194,7 +194,7 @@ padding-bottom: 217px;
   color: #FFF;
   text-align: justify;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 41px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -234,7 +234,7 @@ padding-bottom: 217px;
   color: #FFF;
   text-align: left;
   font-family: Roboto;
-  font-size: 39px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -246,7 +246,7 @@ padding-bottom: 217px;
   color: #FFF;
   text-align: justify;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 41px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -254,7 +254,7 @@ padding-bottom: 217px;
 }
 
 .conteudo-experiencias-itens-evolutix-titulo-ferramentas-column{
-  padding-top: 160px;
+  padding-top: 110px;
   grid-column-start: 3;
   grid-column-end: 3;
 }
@@ -266,7 +266,6 @@ padding-bottom: 217px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  
 }
 
 .conteudo-experiencias-itens-evolutix-imagens-ferramentas{
@@ -306,7 +305,7 @@ padding-bottom: 217px;
   color: #000;
   text-align: justify;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 41px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -314,7 +313,7 @@ padding-bottom: 217px;
 }
 
 .conteudo-experiencias-itens-ludopedia-titulo-ferramentas-column{
-  padding-top: 160px;
+  padding-top: 110px;
   grid-column-start: 3;
   grid-column-end: 3;
 }
@@ -501,7 +500,7 @@ padding-bottom: 217px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-top: 129px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 
@@ -526,8 +525,3 @@ padding-bottom: 217px;
   background-color: #1a1919;
   color: #6FCF57;
 }
-
-
-
-/*   EVOLUTIX HOME     */
-
