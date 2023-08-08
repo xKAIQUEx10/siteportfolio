@@ -70,7 +70,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 78px 816px 369px 189px;
+  padding: 78px 816px 250px 189px;
 }
 
 .conteudo-principal-escrito-titulo{
@@ -109,6 +109,7 @@ body{
   font-weight: 500;
   line-height: normal;
   border-bottom: 1.6px solid #FFF;
+  padding-top: 109px;
 }
 
 .conteudo-sobre-desc{
@@ -119,7 +120,7 @@ body{
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding: 74px 174px 200px 174px;
+  padding: 69px 165px 200px 165px;
 
 }
 
@@ -144,7 +145,7 @@ padding-bottom: 217px;
   font-weight: 500;
   line-height: normal;
   border-bottom: 1.6px solid #000;
-  padding-top: 90px;
+  padding-top: 109px;
 }
 
 .conteudo-experiencias-titulo{
@@ -161,7 +162,7 @@ padding-bottom: 217px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-top: 76px;
+  padding-top: 109px;
   border-bottom: 1.6px solid #fff;
 }
 
@@ -309,7 +310,7 @@ padding-bottom: 217px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-bottom: 58px;
+  padding-bottom: 145px;
 }
 
 .conteudo-experiencias-itens-ludopedia-titulo-ferramentas-column{
@@ -361,7 +362,7 @@ padding-bottom: 217px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-bottom: 108px;
+  padding-bottom: 160px;
 }
 
 .conteudo-experiencias-itens-zg-titulo-ferramentas-column{
@@ -402,7 +403,7 @@ padding-bottom: 217px;
   display: flex;
   justify-content: center;
   padding-top:100px;
-  padding-bottom: 170px;
+  padding-bottom: 120px;
   
 }
 .conteudo-portfolio-evolutix-btn-texto{
@@ -414,7 +415,7 @@ padding-bottom: 217px;
   font-weight: 300;
   line-height: normal;
   background-color: #000;
-  padding: 20px 130px 20px 130px;
+  padding: 20px 130px 20px 109px;
   border: 2px  solid #FFF;
 }
 
@@ -425,17 +426,18 @@ padding-bottom: 217px;
   justify-content: center;
   background-color: #FFF;
 }
-.conteudo-portfolio-ludopedia-imagem{
-  padding-top: 200px;
+
+.conteudo-portfolio-itau-imagem{
+  padding-top: 109px;
 }
 
-.conteudo-portfolio-ludopedia-btn{
+.conteudo-portfolio-itau-btn{
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 170px;
+  padding-bottom: 109px;
+  padding-top: 100px;
 }
-.conteudo-portfolio-ludopedia-btn-texto{
+.conteudo-portfolio-itau-btn-texto{
   color: #000;
   text-align: center;
   font-family: Roboto;
